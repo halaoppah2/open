@@ -26,7 +26,7 @@ i{
 
 div{
     position: absolute;
-    margin-left: 450px;
+    margin-left: 500px;
 }
 
 h1{
@@ -111,7 +111,7 @@ section img:hover{
 
     i{
         margin-top: -50px;
-        margin-right: 50px;
+        margin-left: 300px;
         font-size: 13pt;
     }
 
@@ -170,7 +170,7 @@ section img:hover{
     }
 }
 
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
     div{
         position: absolute;
         margin-left: 350px;
@@ -188,7 +188,7 @@ section img:hover{
     .keys .text{
         font-size: 14pt;
     }
-}
+} */
 /* 
 @media screen and (min-width: 1024px){
     

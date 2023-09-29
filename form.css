@@ -45,18 +45,22 @@ input:focus{
     outline: none;
 }
 
-input[type="submit"]{
-    margin-top: 40px;
-    margin-left: 160px;
+button{
+    margin-top: 20px;
+    margin-left: 600px;
     background-color: red;
     color: white;
     border-radius: 10px;
     width: 120px;
-    border: 1px solid white;
+    border: 1.5px solid white;
     transition: all 0.5s;
+    width: 130px;
+    height: 40px;
 }
-input[type="submit"]:hover{
+
+button:hover{
     background-color: tomato;
+    width: 150px;
 }
 
 
@@ -90,8 +94,8 @@ input[type="submit"]:hover{
         margin-left: -20px;
     }
 
-    input[type="submit"]{
-        margin-left: 60px;
+    button{
+        margin-left: 120px;
         margin-top: 20px;
     }
     
